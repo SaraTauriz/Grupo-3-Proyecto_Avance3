@@ -1,0 +1,143 @@
+.pdfprueba{
+    padding: 20px;
+    margin: auto;
+    display: block;
+    width: 850px;
+    height: 100vh;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif; /*tipografia helvetica o arial*/
+	/*COLOR de titulo */ 
+	color: rgb(0, 0, 0);
+	background: #f2f2f2; 
+	font-size: 1em;/*vista de un poquito grande el texto*/
+	line-height: 1.5em; /**/ 
+}
+
+/*es lo que controla los titulos generales*/ 
+h1 {
+	font-size: 1.4em;
+	line-height: 1.3em;
+	margin: 40px 0 ;
+	margin-bottom: 15px;
+	/*posicion del titulo*/
+	text-align: center;
+	font-weight: 300;
+	/*bordes generales en cuadrado*/
+	border: rgb(131, 64, 64) 3px solid;
+	/*el borde radius es lo que seria el curbeado*/
+	border-radius: 20px;
+	background-color: #ffa3a4;
+	padding: 10px;
+}
+
+
+/*Separacion de los parrafos como si fuera un enter*/ 
+p {
+	margin: 0 0 1.5em 0;
+	text-align: justify;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+
+				/*elemento de la pantalla de fondo de las palabras*/ 
+                #main-content {
+					/*fondo*/ 
+                    background: white;
+					/*tendremos un ancho de la pantalla del 90%*/ 
+                    width: 90%;
+					/*pero tendra un ancho maximo de 1050px es lo que se ve como una hoja*/ 
+                    max-width: 1050px;
+					/*esto es para que quede centrado: tendremos 20px de arriba y abajo y de los lados automatico*/ 
+                    margin: 10px auto;
+                    box-shadow: 0 0 10px rgba(0,0,0,.1);
+                }
+                
+                    #main-content header,
+                    #main-content .content {
+                        padding: 0px 50px 0px 50px;
+                    }
+                    #main-footer {
+                        background: #333;
+                        color: white;
+                        text-align: center;
+                        padding: 20px;
+                        margin-top: 40px;
+                    }
+                        #main-footer p {
+                            margin: 0;
+                        }
+                        
+                        #main-footer a {
+                            color: white;
+                        }
+
